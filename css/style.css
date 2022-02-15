@@ -29,7 +29,7 @@ background-color: var(--banner-bgcolor) ;
 }
 
 .logo {
-    width: 100px;
+    width: 80px;
     vertical-align: top;
 }
 
@@ -37,7 +37,7 @@ background-color: var(--banner-bgcolor) ;
     line-height: 50%;
     display: inline-block;
     margin-left: -1rem;
-    font-size: 50px;
+    font-size: 45px;
 }
 
 /* ****---> main <---**** */
@@ -56,7 +56,10 @@ background-color: var(--banner-bgcolor) ;
     background-color: var(--botton-bluecolor);
     border-radius: 5px;
     font-size: smaller;
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     color: white;
     margin-left: 2.5rem;
     border: 1px solid var(--botton-bluecolor);
