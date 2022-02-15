@@ -1,12 +1,12 @@
 :root {
-    --body-bgcolor: #f6f8f9;
-    --banner-bgcolor: white;
-    --botton-bluecolor: #47adf1;
+    --bodybg-color: #f6f8f9;
+    --bannerbg-color: white;
+    --bottoneditorial-color: #47adf1;
     --check-color: #79c9b6;
     --cross-color: #eb5952;
-    --botton-violetcolor: #9c72e4;
-    --botton-greencolor: #64c0a9;
-    --botton-orangecolor: #f29e33;
+    --bottongoals-color: #9c72e4;
+    --bottonrecruiting-color: #64c0a9;
+    --bottonmobile-color: #f29e33;
     --bottonwebsite-color: #d963a0;
     --bottonsales-color: #b0c926;
 }
@@ -14,7 +14,7 @@
 body{
     margin: 0;
     box-sizing: border-box;
-    background-color: var(--body-bgcolor);
+    background-color: var(--bodybg-color);
 }
 
 main {
@@ -25,7 +25,7 @@ main {
 /* ****---> header <---**** */
 
 .header_banner {
-background-color: var(--banner-bgcolor) ; 
+background-color: var(--bannerbg-color) ; 
 }
 
 .logo {
@@ -44,7 +44,7 @@ background-color: var(--banner-bgcolor) ;
 
 .add_function {
     width: 100%;
-    background-color: var(--banner-bgcolor);
+    background-color: var(--bannerbg-color);
     margin-top: 2rem;
     border-top-left-radius:  5px;
     border-top-right-radius:  5px;
@@ -53,7 +53,7 @@ background-color: var(--banner-bgcolor) ;
 }
 
 .add_task {
-    background-color: var(--botton-bluecolor);
+    background-color: var(--bottoneditorial-color);
     border-radius: 5px;
     font-size: smaller;
     padding-top: 5px;
@@ -62,7 +62,7 @@ background-color: var(--banner-bgcolor) ;
     padding-right: 10px;
     color: white;
     margin-left: 2.5rem;
-    border: 1px solid var(--botton-bluecolor);
+    border: 1px solid var(--bottoneditorial-color);
     margin-top: 12px;
     display: inline-block;
 }
@@ -92,7 +92,7 @@ background-color: var(--banner-bgcolor) ;
 }
 
 .list {
-    background-color: var(--banner-bgcolor);
+    background-color: var(--bannerbg-color);
     border-bottom-left-radius:  5px;
     border-bottom-right-radius:  5px;
 }
@@ -134,19 +134,19 @@ background-color: var(--banner-bgcolor) ;
 }
 
 .editorial {
-    background-color: var(--botton-bluecolor);
+    background-color: var(--bottoneditorial-color);
 }
 
 .goals {
-    background-color: var(--botton-violetcolor);
+    background-color: var(--bottongoals-color);
 }
 
 .recruiting {
-    background-color: var(--botton-greencolor);
+    background-color: var(--bottonrecruiting-color);
 }
 
 .mobile {
-    background-color: var(--botton-orangecolor);
+    background-color: var(--bottonmobile-color);
 }
 
 .website{
