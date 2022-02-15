@@ -1,0 +1,26 @@
+:root {
+    --body-bgcolor: #f6f8f9;
+    --banner-bgcolor: white;
+}
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--body-bgcolor);
+}
+
+.header_banner {
+background-color: var(--banner-bgcolor) ; 
+}
+
+.logo {
+    width: 100px;
+    vertical-align: top;
+}
+
+.name_site {
+    line-height: 50%;
+    display: inline-block;
+    margin-left: -1rem;
+    font-size: 50px;
+}
