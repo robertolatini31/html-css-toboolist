@@ -1,6 +1,7 @@
 :root {
     --body-bgcolor: #f6f8f9;
     --banner-bgcolor: white;
+    --botton-bluecolor: #47adf1;
 }
 
 body{
@@ -8,6 +9,13 @@ body{
     box-sizing: border-box;
     background-color: var(--body-bgcolor);
 }
+
+main {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* ****---> header <---**** */
 
 .header_banner {
 background-color: var(--banner-bgcolor) ; 
@@ -23,4 +31,80 @@ background-color: var(--banner-bgcolor) ;
     display: inline-block;
     margin-left: -1rem;
     font-size: 50px;
+}
+
+/* ****---> main <---**** */
+
+.add_function {
+    width: 100%;
+    background-color: var(--banner-bgcolor);
+    margin-top: 2rem;
+    border-top-left-radius:  5px;
+    border-top-right-radius:  5px;
+    height: 3rem;
+}
+
+span {
+    display: inline-block;
+    margin-top: 12px;
+}
+
+.add_task {
+    background-color: var(--botton-bluecolor);
+    border-radius: 5px;
+    font-size: smaller;
+    padding: 5px;
+    color: white;
+    margin-left: 2.5rem;
+    border: 1px solid var(--botton-bluecolor);
+}
+
+.add_section {
+    border: 1px solid #d2d6db;
+    border-radius: 5px;
+    font-size: smaller;
+    padding: 5px;
+    color: #d2d6db;
+}
+
+.new_task{
+    margin-left: 2.5rem;
+}
+
+.subtitle {
+    margin-bottom: 0;
+}
+
+.text {
+    margin-top: 0;
+}
+
+.list {
+    background-color: var(--banner-bgcolor);
+    border-bottom-left-radius:  5px;
+    border-bottom-right-radius:  5px;
+}
+
+.check{
+    border-radius: 50%;
+    width: 1.1rem;
+    text-align: center;
+    border: 1px solid green;
+    color: green;
+    vertical-align: middle;
+}
+
+.text {
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+
+.editorial {
+    background-color: var(--botton-bluecolor);
+    border-radius: 16px;
+    font-size: 11px;
+    padding: 7px;
+    color: white;
+    padding-left: 16px;
+    padding-right: 16px;
 }
