@@ -2,6 +2,11 @@
     --body-bgcolor: #f6f8f9;
     --banner-bgcolor: white;
     --botton-bluecolor: #47adf1;
+    --check-color: #79c9b6;
+    --cross-color: #eb5952;
+    --botton-violetcolor: #9c72e4;
+    --botton-greencolor: #64c0a9;
+    --botton-orangecolor: #f29e33;
 }
 
 body{
@@ -42,11 +47,7 @@ background-color: var(--banner-bgcolor) ;
     border-top-left-radius:  5px;
     border-top-right-radius:  5px;
     height: 3rem;
-}
-
-span {
-    display: inline-block;
-    margin-top: 12px;
+    margin-bottom: 3px;
 }
 
 .add_task {
@@ -57,6 +58,8 @@ span {
     color: white;
     margin-left: 2.5rem;
     border: 1px solid var(--botton-bluecolor);
+    margin-top: 12px;
+    display: inline-block;
 }
 
 .add_section {
@@ -65,6 +68,8 @@ span {
     font-size: smaller;
     padding: 5px;
     color: #d2d6db;
+    margin-top: 12px;
+    display: inline-block;
 }
 
 .new_task{
@@ -73,6 +78,8 @@ span {
 
 .subtitle {
     margin-bottom: 0;
+    display: inline-block;
+    margin-left: 5px;
 }
 
 .text {
@@ -85,13 +92,35 @@ span {
     border-bottom-right-radius:  5px;
 }
 
+.arrow{
+    width: 0px;
+    height: 0px;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid black;
+    display: inline-block;
+}
+
 .check{
     border-radius: 50%;
     width: 1.1rem;
     text-align: center;
-    border: 1px solid green;
-    color: green;
+    border: 1px solid var(--check-color);
+    color: var(--check-color);
     vertical-align: middle;
+    margin-top: 12px;
+    display: inline-block;
+}
+
+.cross {
+    border-radius: 50%;
+    width: 1.1rem;
+    text-align: center;
+    border: 1px solid var(--cross-color);
+    color: var(--cross-color);
+    vertical-align: middle;
+    margin-top: 12px;
+    display: inline-block;
 }
 
 .text {
@@ -101,10 +130,48 @@ span {
 
 .editorial {
     background-color: var(--botton-bluecolor);
-    border-radius: 16px;
+    border-radius: 14px;
     font-size: 11px;
-    padding: 7px;
     color: white;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 14px;
+    padding-right: 14px;
+    display: inline-block;
+}
+
+.goals {
+    background-color: var(--botton-violetcolor);
+    border-radius: 14px;
+    font-size: 11px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 14px;
+    padding-right: 14px;
+    display: inline-block;
+}
+
+.recruiting {
+    background-color: var(--botton-greencolor);
+    border-radius: 14px;
+    font-size: 11px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 14px;
+    padding-right: 14px;
+    display: inline-block;
+}
+
+.mobile {
+    background-color: var(--botton-orangecolor);
+    border-radius: 14px;
+    font-size: 11px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 14px;
+    padding-right: 14px;
+    display: inline-block;
 }
