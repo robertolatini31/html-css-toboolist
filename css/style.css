@@ -132,66 +132,29 @@ background-color: var(--banner-bgcolor) ;
 
 .editorial {
     background-color: var(--botton-bluecolor);
-    border-radius: 14px;
-    font-size: 11px;
-    color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 14px;
-    padding-right: 14px;
-    display: inline-block;
 }
 
 .goals {
     background-color: var(--botton-violetcolor);
-    border-radius: 14px;
-    font-size: 11px;
-    color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 14px;
-    padding-right: 14px;
-    display: inline-block;
 }
 
 .recruiting {
     background-color: var(--botton-greencolor);
-    border-radius: 14px;
-    font-size: 11px;
-    color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 14px;
-    padding-right: 14px;
-    display: inline-block;
 }
 
 .mobile {
     background-color: var(--botton-orangecolor);
-    border-radius: 14px;
-    font-size: 11px;
-    color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 14px;
-    padding-right: 14px;
-    display: inline-block;
 }
 
 .website{
     background-color: var(--bottonwebsite-color);
-    border-radius: 14px;
-    font-size: 11px;
-    color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 14px;
-    padding-right: 14px;
-    display: inline-block;
 }
 
 .sales{
     background-color: var(--bottonsales-color);
+}
+
+.post {
     border-radius: 14px;
     font-size: 11px;
     color: white;
