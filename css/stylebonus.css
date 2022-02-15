@@ -1,0 +1,168 @@
+:root {
+    --bodybg-color: #1173a3;
+    --bannerbg-color: white;
+    --bottoneditorial-color: #fc3434;
+    --check-color: #00ff37;
+    --cross-color: #640000;
+    --bottongoals-color: #a1bfff;
+    --bottonrecruiting-color: #a1bfff;
+    --bottonmobile-color: #a1bfff;
+    --bottonwebsite-color: #a1bfff;
+    --bottonsales-color: #a1bfff;
+}
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--bodybg-color);
+}
+
+.ftext {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ****---> header <---**** */
+
+.header_banner {
+background-color: var(--bannerbg-color) ; 
+}
+
+.logo {
+    width: 80px;
+    vertical-align: top;
+}
+
+.name_site {
+    line-height: 50%;
+    display: inline-block;
+    margin-left: -1rem;
+    font-size: 45px;
+}
+
+/* ****---> main <---**** */
+
+.add_function {
+    width: 100%;
+    background-color: var(--bannerbg-color);
+    margin-top: 2rem;
+    border-top-left-radius:  5px;
+    border-top-right-radius:  5px;
+    height: 3rem;
+    margin-bottom: 3px;
+}
+
+.add_task {
+    background-color: var(--bottoneditorial-color);
+    border-radius: 5px;
+    font-size: smaller;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    margin-left: 2.5rem;
+    border: 1px solid var(--bottoneditorial-color);
+    margin-top: 12px;
+    display: inline-block;
+}
+
+.add_section {
+    border: 1px solid #d2d6db;
+    border-radius: 5px;
+    font-size: smaller;
+    padding: 5px;
+    color: #d2d6db;
+    margin-top: 12px;
+    display: inline-block;
+}
+
+.new_section{
+    margin-left: 2.5rem;
+}
+
+.subtitle {
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.text {
+    margin-top: 0;
+}
+
+.list {
+    background-color: var(--bannerbg-color);
+    border-bottom-left-radius:  5px;
+    border-bottom-right-radius:  5px;
+}
+
+.arrow{
+    width: 0px;
+    height: 0px;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid black;
+    display: inline-block;
+}
+
+.check{
+    border-radius: 50%;
+    width: 1.1rem;
+    text-align: center;
+    border: 1px solid var(--check-color);
+    color: var(--check-color);
+    vertical-align: middle;
+    margin-top: 12px;
+    display: inline-block;
+}
+
+.cross {
+    border-radius: 50%;
+    width: 1.1rem;
+    text-align: center;
+    border: 1px solid var(--cross-color);
+    color: var(--cross-color);
+    vertical-align: middle;
+    margin-top: 12px;
+    display: inline-block;
+}
+
+.text {
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+
+.editorial {
+    background-color: var(--bottoneditorial-color);
+}
+
+.goals {
+    background-color: var(--bottongoals-color);
+}
+
+.recruiting {
+    background-color: var(--bottonrecruiting-color);
+}
+
+.mobile {
+    background-color: var(--bottonmobile-color);
+}
+
+.website{
+    background-color: var(--bottonwebsite-color);
+}
+
+.sales{
+    background-color: var(--bottonsales-color);
+}
+
+.post {
+    border-radius: 14px;
+    font-size: 11px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 14px;
+    padding-right: 14px;
+    display: inline-block;
+}
