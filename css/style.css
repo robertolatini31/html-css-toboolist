@@ -7,6 +7,8 @@
     --botton-violetcolor: #9c72e4;
     --botton-greencolor: #64c0a9;
     --botton-orangecolor: #f29e33;
+    --bottonwebsite-color: #d963a0;
+    --bottonsales-color: #b0c926;
 }
 
 body{
@@ -72,12 +74,12 @@ background-color: var(--banner-bgcolor) ;
     display: inline-block;
 }
 
-.new_task{
+.new_section{
     margin-left: 2.5rem;
 }
 
 .subtitle {
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
     display: inline-block;
     margin-left: 5px;
 }
@@ -166,6 +168,30 @@ background-color: var(--banner-bgcolor) ;
 
 .mobile {
     background-color: var(--botton-orangecolor);
+    border-radius: 14px;
+    font-size: 11px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 14px;
+    padding-right: 14px;
+    display: inline-block;
+}
+
+.website{
+    background-color: var(--bottonwebsite-color);
+    border-radius: 14px;
+    font-size: 11px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 14px;
+    padding-right: 14px;
+    display: inline-block;
+}
+
+.sales{
+    background-color: var(--bottonsales-color);
     border-radius: 14px;
     font-size: 11px;
     color: white;
